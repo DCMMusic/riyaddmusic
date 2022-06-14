@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "TaliaMusicAsistant"
+        user.first_name = "KarabakhMusicAsistan"
     usar = user
     wew = usar.id
     try:
@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+        thumb_name = "https://images.app.goo.gl/tgoYx94kNZCUtxw89"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerel olarak eklendi"
@@ -198,8 +198,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/KafkazMusicbot"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/azeqafqaz2021"),
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/KarabakhMusicbot"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/karabakhteamm"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
@@ -207,7 +207,7 @@ async def play(_, message: Message):
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+            thumb_name = "https://images.app.goo.gl/tgoYx94kNZCUtxw89"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -262,9 +262,9 @@ async def play(_, message: Message):
 
         keyboard = InlineKeyboardMarkup(
         [
-            [
-                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/KafkazMusicbot"),
-                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/azeqafqaz2021"),
+            
+                InlineKeyboardButton("🚀 İnfo", url=f"https://t.me/Karabakhteamm"),
+                InlineKeyboardButton("📣 Kanal", url=f"https://t.me/RiyaddBlog"),
             ],[
                 InlineKeyboardButton("📲 Kapat", callback_data="cls"),
             ],
