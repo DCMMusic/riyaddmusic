@@ -14,12 +14,12 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/KafkazMusicbot?startgroup=true"
+                        "➕ ❰ Grubuna Ekle ❱ ➕", url=f"https://t.me/QafqazMusicbot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KafkazMusicasistan"
+                        "🔊 Asistan", url="https://t.me/QafqazMusicAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet", url="https://t.me/azeqafqaz2021"
@@ -136,7 +136,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/KafkazMusicasistan"
+                        "🔊 Asistan", url="https://t.me/QafqazMusicAsistan"
                     ),
                     InlineKeyboardButton(
                         "💬 Sohbet", url="https://t.me/azeqafqaz2021"
